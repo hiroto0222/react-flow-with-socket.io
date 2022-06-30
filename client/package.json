@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prepare": "cd .. && husky install client/.husky",
+    "prepare": "cd .. && husky install client/.husky && husky install",
     "lint-client": "lint-staged",
     "start": "react-scripts start",
     "build": "react-scripts build",
